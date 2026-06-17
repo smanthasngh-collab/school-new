@@ -1,0 +1,6 @@
+{
+  "name": "School Management System",
+  "description": "School ERP with role-based access, attendance, grades, notices, homework, timetables, and Razorpay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
