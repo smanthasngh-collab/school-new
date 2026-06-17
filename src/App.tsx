@@ -673,10 +673,10 @@ export default function App() {
               <div>
                 <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Institutional Email</label>
                 <input
-                  type="email"
+                  type=""
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
                   
-                  value={loginEmail}
+                  
                   
                   required
                 />
@@ -685,10 +685,10 @@ export default function App() {
               <div>
                 <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Secret Password</label>
                 <input
-                  type="password"
+                  type=""
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
                   
-                  value={loginPassword}
+                  
                   
                   required
                 />
