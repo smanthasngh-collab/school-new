@@ -677,7 +677,7 @@ export default function App() {
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
                   
                   value={loginEmail}
-                  onChange={(e) => setLoginEmail(e.target.value)}
+                  
                   required
                 />
               </div>
@@ -689,7 +689,7 @@ export default function App() {
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
                   
                   value={loginPassword}
-                  onChange={(e) => setLoginPassword(e.target.value)}
+                  
                   required
                 />
               </div>
