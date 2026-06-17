@@ -708,10 +708,10 @@ export default function App() {
                 Let me in
               </button>
             </form> 
+            </div>
+           </div>
           </div>
-        </div>
-      </div>
-      </div> 
+         </div> 
       
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-800">
