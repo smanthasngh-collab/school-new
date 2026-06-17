@@ -707,8 +707,24 @@ export default function App() {
               >
                 Let me in
               </button>
-            </form> 
-            
+            </form>
+
+            <div className="mt-8 pt-6 border-t border-slate-100">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Institutional Demo Backdoors</h4>
+              <div className="grid grid-cols-2 gap-2 text-[11px] text-slate-600">
+                <button type="button" onClick={() => { setLoginEmail('admin@school.com'); setLoginPassword('admin123'); }} className="p-2 bg-slate-50 rounded border border-slate-100 hover:bg-slate-100 text-left cursor-pointer">
+                  <strong>Super Admin:</strong> admin@school.com (pass: admin123)
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Loaded Application
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-800">
       {/* Upper Navigation Bar */}
@@ -726,6 +742,7 @@ export default function App() {
             <span className="text-xs font-semibold text-slate-800">{currentUser?.name}</span>
             <span className="text-[10px] text-emerald-600 font-bold uppercase tracking-wider">{currentUser?.role} portal</span>
           </div>
+
           <div className="py-1.5 px-3 bg-slate-100 rounded-full text-xs text-slate-600 font-medium">
             Term: {settings.currentAcademicYear}
           </div>
@@ -2333,7 +2350,5 @@ export default function App() {
         {settings.schoolName} Enterprise School Resource Coordinator • Sector Aligned Data Encryption Enabled
       </footer>
     </div>
-          </div>
-        </div>          
   );
 }
