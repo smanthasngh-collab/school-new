@@ -707,10 +707,12 @@ export default function App() {
               >
                 Let me in
               </button>
-            </form>
-
-            
-
+            </form> 
+          </div>
+        </div>
+      </div>
+      </div> 
+                  
   // Loaded Application
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-800">
@@ -729,7 +731,6 @@ export default function App() {
             <span className="text-xs font-semibold text-slate-800">{currentUser?.name}</span>
             <span className="text-[10px] text-emerald-600 font-bold uppercase tracking-wider">{currentUser?.role} portal</span>
           </div>
-
           <div className="py-1.5 px-3 bg-slate-100 rounded-full text-xs text-slate-600 font-medium">
             Term: {settings.currentAcademicYear}
           </div>
