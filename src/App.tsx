@@ -2333,5 +2333,6 @@ export default function App() {
         {settings.schoolName} Enterprise School Resource Coordinator • Sector Aligned Data Encryption Enabled
       </footer>
     </div>
+          </div>       
   );
 }
