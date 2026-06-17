@@ -675,7 +675,7 @@ export default function App() {
                 <input
                   type="email"
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
-                  placeholder=""
+                  
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
                   required
@@ -687,7 +687,7 @@ export default function App() {
                 <input
                   type="password"
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-emerald-500 transition-colors"
-                  placeholder=""
+                  
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
                   required
