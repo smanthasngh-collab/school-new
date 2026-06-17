@@ -709,28 +709,7 @@ export default function App() {
               </button>
             </form>
 
-            <div className="mt-8 pt-6 border-t border-slate-100">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Institutional Demo Backdoors</h4>
-              <div className="grid grid-cols-2 gap-2 text-[11px] text-slate-600">
-                <button type="button" onClick={() => { setLoginEmail('admin@school.com'); setLoginPassword('admin123'); }} className="p-2 bg-slate-50 rounded border border-slate-100 hover:bg-slate-100 text-left cursor-pointer">
-                  <strong>Super Admin:</strong> admin@school.com (pass: admin123)
-                </button>
-                <button type="button" onClick={() => { setLoginEmail('principal@school.com'); setLoginPassword('principal123'); }} className="p-2 bg-slate-50 rounded border border-slate-100 hover:bg-slate-100 text-left cursor-pointer">
-                  <strong>Principal:</strong> principal@school.com (pass: principal123)
-                </button>
-                <button type="button" onClick={() => { setLoginEmail('teacher.alex@school.com'); setLoginPassword('teacher123'); }} className="p-2 bg-slate-50 rounded border border-slate-100 hover:bg-slate-100 text-left cursor-pointer">
-                  <strong>Teacher:</strong> teacher.alex@school.com (pass: teacher123)
-                </button>
-                <button type="button" onClick={() => { setLoginEmail('student.billy@school.com'); setLoginPassword('student123'); }} className="p-2 bg-slate-50 rounded border border-slate-100 hover:bg-slate-100 text-left cursor-pointer">
-                  <strong>Student:</strong> student.billy@school.com (pass: student123)
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+            
 
   // Loaded Application
   return (
